@@ -4,6 +4,40 @@
   <artifactId>javaweb</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20160810</version>
+    </dependency>
+    		<!-- httpclient -->   
+		<dependency>  
+		 <groupId>org.apache.httpcomponents</groupId>  
+		 <artifactId>httpclient</artifactId>  
+		 <version>4.5.3</version>  
+		</dependency>  
+		<dependency>  
+		 <groupId>org.apache.httpcomponents</groupId>  
+		 <artifactId>httpcore</artifactId>
+		 <version>4.4.6</version>
+		</dependency>  
+		<dependency>  
+		 <groupId>org.apache.httpcomponents</groupId>  
+		 <artifactId>httpmime</artifactId>
+		 <version>4.3.1</version>  
+		</dependency>
+		<dependency>
+		    <groupId>commons-codec</groupId>
+		    <artifactId>commons-codec</artifactId>
+		    <version>1.9</version>
+		</dependency>
+				
+		<dependency>
+		    <groupId>commons-collections</groupId>
+		    <artifactId>commons-collections</artifactId>
+		    <version>3.2.2</version>
+		</dependency>
+  </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
